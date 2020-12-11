@@ -16,12 +16,10 @@ function Header() {
            alt=""
            />
         </Link>
-
-        <div className="header_center">
+        {/* <div className="header_center">
             <input type="text" />
             <SearchIcon />
-            </div>
-        
+            </div> */}
         <div className="header_right">
             <p>Become a host</p>
             <LanguageIcon/>
@@ -29,8 +27,11 @@ function Header() {
             <Avatar/>
         </div>
         </div>
+        
     )
 }
+
+        
 
 export default Header
  

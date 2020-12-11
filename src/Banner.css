@@ -9,7 +9,6 @@
     color: whitesmoke;
     padding-top: 20vh;
     padding-left: 50px;
-    padding-right: 50px;
     padding-bottom: 134px;
     width: 300px;
     border-radius: 40%;
@@ -18,10 +17,11 @@
 .banner_search{
     display: flex;
     flex-direction: column;
+    color: #ff7778;
 }
 
 .banner_searchButton{
-    background-color: white !important;
+    background-color: black !important;
     font-weight: 900 !important;
     text-transform: inherit !important;
     color: #ff7778 !important;
