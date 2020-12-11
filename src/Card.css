@@ -17,9 +17,10 @@
 .card > img {
     object-fit: fill;
     min-width: 300px;
-    min-height: 200px;
+    min-height: -webkit-fill-available;
     width: 100%;
     border-radius: 10px;
+    
 }
 
 .card_info{
